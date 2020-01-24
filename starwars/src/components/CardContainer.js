@@ -1,6 +1,6 @@
 import React from 'react';
 import CharCard from './Card';
-import { container, Row} from 'reactstrap';
+import { Container, Row} from 'reactstrap';
 
 function CardContainer(props) {
     return (
