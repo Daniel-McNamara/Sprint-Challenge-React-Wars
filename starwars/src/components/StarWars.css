@@ -1,0 +1,7 @@
+.charCard {
+    margin-bottom: 1.5rem !important;
+    background: rgb(255,216,143) !important;
+    background: linear-gradient(325deg, rgba(255,216,143,0.6) 0%, rgba(0,0,0,0.6) 100%) !important;
+    font-size: 1.2rem !important;
+    color: black !important;
+}
