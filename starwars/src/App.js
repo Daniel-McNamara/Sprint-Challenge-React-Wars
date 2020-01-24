@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
-import CardContainer from './components/CardContainer';
+import CharContainer from './components/CharContainer';
 import './App.css';
-import CharCard from './components/Card';
+
 
 const App = () => {
   const [data, setData] = useState([]);
@@ -29,7 +29,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
-      <CardContainer parentData={data} />
+      <CharContainer parentData={data} />
     </div>
   );
 }

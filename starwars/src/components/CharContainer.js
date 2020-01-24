@@ -1,8 +1,8 @@
 import React from 'react';
-import CharCard from './Card';
+import CharCard from './CharCard';
 import { Container, Row} from 'reactstrap';
 
-function CardContainer(props) {
+function CharContainer(props) {
     return (
         <Container>
             <Row>
@@ -16,4 +16,4 @@ function CardContainer(props) {
     )
 }
 
-export default CardContainer; 
+export default CharContainer; 
